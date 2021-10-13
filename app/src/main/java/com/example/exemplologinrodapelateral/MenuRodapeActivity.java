@@ -40,7 +40,7 @@ public class MenuRodapeActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(binding.navView, navController);
 
         // VAMOS INSERIR AQUI O MENU LATERAL
-        setSupportActionBar(binding.appBarMenuLateral.toolbar);
+        // setSupportActionBar(binding.appBarMenuLateral.toolbar);
         binding.appBarMenuLateral.fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
